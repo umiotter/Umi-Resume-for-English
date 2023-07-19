@@ -44,7 +44,7 @@ For example, here I hiddened achievements, interests, and languages section by c
 \input{cv/education.tex}
 
 % \input{cv/achievements.tex}
- \input{cv/publications.tex}
+% \input{cv/publications.tex}
 % \input{cv/interests.tex}
 % \input{cv/languages.tex}```
 ```
