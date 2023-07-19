@@ -25,7 +25,9 @@ Menki's resume with latex.
 
 # Usage
 
-`resume.tex` file is the entry of controlling the display of each section.
+Edit the `.tex` files in the cv folders for each section as needed.
+
+`resume.tex` file is the entry of controlling the display of section.
 
 For example, here I hiddened achievements, interests, and languages section by commenting. 
 
@@ -46,6 +48,11 @@ For example, here I hiddened achievements, interests, and languages section by c
 % \input{cv/interests.tex}
 % \input{cv/languages.tex}```
 ```
+
+Compile `resume.tex` with [XeLaTeX](https://tug.org/xetex/).
+
+If there are publications in your resume, please compile the `resume.tex` first, then, generate reference by [Biber](https://ctan.org/pkg/biber?lang=en), finally,compile `resume.tex` again.
+
 # Reference
 
 [Rusell Resume](https://github.com/themagicalmammal/Resume)
